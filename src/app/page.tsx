@@ -7,7 +7,8 @@ export default async function Home() {
 
   return (
     <main className={styles.main}>
-        {data.stargazers_count}
+        <p>0</p>
+        <span>⭐ {data.stargazers_count} ⭐</span>
     </main>
   )
 }
